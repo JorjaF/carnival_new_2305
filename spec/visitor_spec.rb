@@ -31,16 +31,3 @@ RSpec.describe Visitor do
   end
 end
 
-
-
-# pry(main)> visitor1.tall_enough?(54)
-# #=> true
-
-# pry(main)> visitor2.tall_enough?(54)
-# #=> false
-
-# pry(main)> visitor3.tall_enough?(54)
-# #=> true
-
-# pry(main)> visitor1.tall_enough?(64)
-# #=> false

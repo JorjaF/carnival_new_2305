@@ -19,4 +19,8 @@ class Visitor
   def tall_enough?(ride_minimum_height)
     @height >= ride_minimum_height
   end
+
+  def spending_money=(amount)
+    @spending_money = amount
+  end
 end

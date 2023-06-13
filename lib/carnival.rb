@@ -31,4 +31,13 @@ class Carnival
       ride.total_revenue
     end
   end
+
+  def summary
+    {
+      visitor_count: visitor_count,
+      revenue_earned: total_revenue,
+      visitors: visitor_summary,
+      rides: ride_summary
+    }
+  end
 end
